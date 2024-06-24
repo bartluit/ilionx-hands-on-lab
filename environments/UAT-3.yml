@@ -1,5 +1,14 @@
 fileVersion: 1
 id: "3"
-mappingDefinitions: {}
+mappingDefinitions:
+  DM:
+    database: ILIONX_ACC
+    schema: DWH
+  DWH:
+    database: ILIONX_ACC
+    schema: DWH
+  SRC:
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
 name: UAT
 type: Environment
